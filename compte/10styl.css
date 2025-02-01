@@ -1,0 +1,1095 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    
+    
+    display: block;
+    justify-content: center;
+    align-items: center;
+   
+}
+ 
+.ensemble{
+    position: relative;
+    z-index: 100;
+    padding-top: 15px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+   
+    background-color: rgb(255, 255, 255);
+    
+}
+.logo{
+    margin-left: 20px;
+    
+}
+.tail{
+    text-transform:capitalize;
+    color: brown;
+}
+.outils{
+   
+   margin-right: 20px;
+    display: flex;
+    gap: 20px;
+    text-transform: none;
+   
+}
+.outils a{
+    color: rgb(0, 0, 0);
+}
+
+.exemple{
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background: radial-gradient(#e0ece0,#ec756d);
+}
+
+.exemple .img{
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.exemple .text{
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(229, 238, 238);
+}
+.titre{
+    text-align: center;
+    background-color: rgb(184, 161 ,161);
+    padding-top: 20px;
+}
+.logique{
+    justify-content: center;
+    display: flex;
+    gap: 250px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.logique .action{
+    background-color: rgba(98, 247, 11, 0.377);
+    width: 100px;
+    height: 200px;
+}
+
+.logique .contact{
+    background-color: rgba(180, 192, 9, 0.377);
+    width: 100px;
+    height: 200px;
+}
+
+.logique .produit{
+    background-color: rgba(192, 9, 137, 0.377);
+    width: 100px;
+    height: 200px;
+}
+
+/* type
+
+*/
+.type{
+    display: block;
+
+    
+}
+.noms1{
+    padding-left: 25px;
+    display: flex;
+}
+
+.noms2{
+    padding-left: 25px;
+    display: flex;
+}
+.centre{ 
+    display: flex;
+   justify-content: center;
+
+}
+.inscrip{
+    width: 400px;
+    background-color: rgb(255, 177, 88);
+    padding: 10px;
+    display: block;
+    border-radius: 20px;
+    height: 500px;
+   
+}
+
+.titre{
+    text-align: center;
+    background-color: aqua;
+    font-size: 30px;
+
+   
+}
+
+
+.a3{
+    display: block;
+}
+.bouton{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.inscrire{
+    margin-left: 20px;
+}
+select{
+
+    width: 100px;
+    height: 30px;
+}
+.taille{
+    font-size: 40px;
+}
+.inputt{
+    margin-left: 40px;
+    width: 200px;
+    height: 30px;
+}
+/*formulaire
+
+/*----Compte page------*/
+
+/*.accounte-page{
+    padding: 10px 10px;
+    background: radial-gradient(#e0ece0,#ec756d);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    position: relative;
+
+  
+    
+
+ 
+
+}*/
+/*titre 10nombre*/
+.titreh1{
+    font-size: 30px;
+    text-align: center;
+}
+/*font*/
+
+/*footer*/
+.footer1{
+    
+    background-color: aqua;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    z-index: 100;
+}
+.Copyright{
+    margin-top: 20px;
+    text-align: center;
+}
+hr{
+    margin-top: 40px;
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    gap: 50px;
+    text-align: center;
+}
+/*
+.footer1{
+    
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+   
+    position: absolute;
+   z-index: 100;
+}
+.row{
+    margin-top: 20px;
+   flex-direction: column;
+    justify-content: space-between;
+    margin: 40px;
+}*/
+/*.footer{
+    background-color: black;
+}*/
+.form-container{
+    background: #2cc75a;
+    width: 300px;
+    height:470px;
+    box-shadow: 0 0 50px 10px rgba(0, 2, 3, 0.1);
+    border: 1px solid white;
+    margin-top: 200px;
+    border-radius: 20px;
+    
+ 
+}
+/*conecter*/
+.form-container1{
+    background: #2cc75a;
+    width: 300px;
+    height:300px;
+    box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+    margin-top: 200pt;
+    border-radius: 20px;
+   
+    
+}
+.conecter1{
+    background-color: #2cc75a;
+    width: 260px;
+    margin: 20px;
+    margin-top: 20px;
+}
+form .btn1{
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    
+    background-color: #ec756d;
+    height: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+form .btn1:hover{
+border: 1px solid white;
+}
+.titreh1{
+    margin-bottom: 10px;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+/*.form-btn{
+    display: inline-block;
+    background-color: #cc4141;
+
+}*/
+
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    top: 130px;
+    transition: transform 1s;
+    
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 3px;
+    border: 1px solid #ff52b3;
+}
+form .btn{
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    background-color: #ec756d;
+    height: 30px;
+    border-radius: 20px;
+    margin: 30px;
+}
+form .btn:focus{
+    outline: none;
+}
+form label{
+    text-align: center;
+}
+form a{
+    font-size: 15px;
+}
+
+#indicateur{
+    width: 100px;
+    border: none;
+    background: #ff52b3;
+    height: 3px;
+    margin-top: 8px;
+
+
+}
+.compte-page{
+    height: 500px;
+    width: auto;
+}
+
+/*------Produits---------*/
+
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+select{
+    border: 1px solid #ff52b3;
+    padding: 5px;
+}
+select:focus{
+    outline: none; 
+}
+.page-btn{
+    margin: 0 auto 80px;
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #ff52b3;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background-color: #ff52b3;
+}
+/* confirme*/
+
+.col-2{
+    width: 100px;
+}
+/* page corps */
+
+.entete{
+    background-color: #555;
+    margin-top: -10%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: #f7f5f4;
+    position: absolute;
+    position: fixed;
+    z-index: 300;
+    box-shadow: 2px 2px 15px black;
+}
+.entete1{
+    background-color: #555;
+    margin-top: -5%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: #f7f5f4;
+    position: absolute;
+    position: fixed;
+    z-index: 300;
+    box-shadow: 2px 2px 15px black;
+}
+
+.entete2{
+    background-color: #555;
+    margin-top: -16%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: #f7f5f4;
+    
+    position: fixed;
+    z-index: 300;
+    box-shadow: 2px 2px 15px black;
+}
+.action{
+    margin: 30px;
+    margin-right: 50px;
+    background-color: #555;
+
+}
+
+.logo{
+    margin: 30px;
+    margin-left: 50px;
+}
+.conecter{
+    width: 100px;
+    height: 20px;
+    background-color: #ec756d;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.conecter:hover{
+    border: 1px solid white;
+}
+
+.inviter{
+    width: 20px;
+    height: 20px;
+    background-color: #ec756d;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.inviter:hover{
+    border: 1px solid white;
+}
+
+.action a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*ensemble*/
+/*cool*/
+.ensemble1{
+    width: 100%;
+    height: 500px;
+    background-color: hsl(192, 72%, 50%);
+    margin-top: 200px;
+    display: block;
+    justify-content: center;
+  
+    
+
+}
+.cool1{
+    text-align: center;
+    margin: 20px;
+}
+p{
+    text-align:center;
+}
+.photo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+/*cool*/
+.ensemble2{
+    width: 100%;
+    height: 100px;
+   /* background: radial-gradient(#e0ece0,#ec756d);*/
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 300px;
+    background-color: hsl(192, 72%, 50%);
+    display: block;
+    
+}
+.h1cool{
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+   
+}
+.bas{
+    background-color: #ff52b3;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+
+.ensemble3{
+    width: 100%;
+    height: 100px;
+   /* background: radial-gradient(#e0ece0,#ec756d);*/
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 100px;
+    background-color: hsl(192, 72%, 50%);
+    display: block;
+    z-index: 200;
+}
+
+/*ensemble4*/
+.ensemble4{
+    width: 700px;
+    height: 500px;
+   /* background: radial-gradient(#e0ece0,#ec756d);*/
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 300px;
+    background-color: hsl(0, 0%, 100%);
+    display: block;
+    z-index: 200;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px black;
+}
+.ensemble5{
+    width: 100%;
+    height: 400px;
+   /* background: radial-gradient(#e0ece0,#ec756d);*/
+    margin-top: 100px;
+    background-color: hsl(0, 0%, 100%);
+    flex-direction: column;
+    
+    margin-bottom: 140px;
+    box-shadow: 3px 3px 15px black;
+}
+
+.papropos{
+    text-align: center;
+    margin-top: 40px;
+}
+/*ensemble4*/
+.menu{
+    margin-left: 180px;
+    background-color: white;
+    color: #555;
+    padding: 10px;
+    border-radius: 10px;
+}
+.menu:hover{
+    background-color: rgb(250, 90, 90);
+    border: 1px solid white;
+    color: #ffffff;
+}
+/*chat*/
+.h110{
+    text-align: center;
+}
+/*chath110*/
+.chat{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    z-index: 500;
+    background-color:#2cc75a;
+    box-shadow: 5px 5px 5px black;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 920px;
+    position: fixed;
+    top: 700px;
+}
+
+.chatfond{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+
+.chatcorps{
+    width: 400px;
+    height: 610px;
+    background-color: #555;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 5px 5px 15px black;
+}
+/*chatenvoi*/
+.chatenvoi{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #555;
+    border-radius: 0 0  10px 10px;
+    margin-top: -19px;
+    
+}
+
+
+.chatecrit{
+    width: 400px;
+    height: 20px;
+
+}
+.chatinput{
+    width: 250px;
+    
+    margin-left: 40px;
+    border: #e0ece0;
+}
+
+.chatbouton{
+    width: 70px;
+    height: 30px;
+    margin-top: -10px;
+}
+
+
+
+.chatbouton1{
+    width: 70px;
+    height: 30px;
+    border-radius:20px 0px 0px 20px;
+    border: 1px solid black;
+    margin-left: 300px;
+}
+
+.chatbouton1:hover{
+    width: 70px;
+    height: 30px;
+    border-radius:0px 20px 20px 0px;
+    border: 1px solid rgb(14, 13, 13);
+    margin-left: 300px;
+    color: white;
+    background-color: #2cc75a;
+}
+
+/*chatentet*/
+.chatentet{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #555;
+    border-radius: 10px 10px  0px 0px;
+    justify-content: space-between;
+   
+}
+
+.chatretoure{
+    background-color: #555;
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left:10px;
+}
+.chatprofile{
+    background-color: #555;
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+
+    
+}
+
+.chatparamettre{
+    background-color: red;
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+.chatimage{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: azure;
+}
+.chatnom{
+    margin-top: -30px;
+    margin-left: 45px;
+}
+
+.aretoure1{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+/*chatrecherche*/
+
+/*recherche*/
+.recherche{
+    display: flex;
+    background-color: #555;
+    margin-right: 10px;
+    width: 360px;
+    margin-left: 8px;
+}
+
+.chatinputrecherche{
+    border-radius: 10px;
+    outline: none;
+}
+
+.chatboutonrecherche{
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.chatboutonrecherche1{
+    margin: 13px 5px;
+    border-radius: 10px;
+}
+
+/*chatinscrit*/
+
+.chatmessage .chatinscrit10{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(156, 250, 101);
+    display: flex;
+   
+   
+}
+a{
+    text-decoration: none;
+}
+.divprofile{
+    width: 90px;
+    height: 30px;
+}
+.imageprofile{
+    width: 45px;
+    height: 45px;
+    background-color: #ec756d;
+    margin:5px;
+    border-radius: 50%;
+}
+
+.pprofile{
+    color: #f5f3f4;
+    margin: 20px 3px;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+/*chatmessage*/
+
+.chatmessage{
+    width: 335px;
+    height: 460px;
+    background-color: azure;
+    display: block;
+    margin: 30px;
+    border-radius: 10px 10px 10px 10px;
+    gap: 20px;
+}
+
+.chatrecu{
+    width: 240px;
+    height: 50px;
+    background-color: #09792b;
+    border-radius: 10px 0px 10px 10px;
+    margin-left:80px ;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 10px black;
+   
+}
+.chatenvoi1{
+    width: 240px;
+    height: 50px;
+    background-color: #555;
+    border-radius: 0px 10px 10px 10px;
+   margin: 15px;
+   box-shadow: 3px 3px 10px black;
+}
+.vide1{
+    width: 20px;
+    height: 10px;
+    background-color: #555;
+    margin-left: -6px;
+    border-radius: 0px 0px 0px 10px;
+}
+.vide2{
+    width: 20px;
+    height: 10px;
+    background-color: #09792b;
+    margin-left: 228px;
+    border-radius: 0px 0px 10px 0px;
+    
+}
+.blanc{
+    width: 100%;
+    height: 10px;
+    background-color: azure;
+}
+.penvoi{
+    margin-left: 20px;
+    color: white;
+}
+.precu{
+    margin-left: 20px;
+    color: white;
+}
+/*chat*/
+
+
+/*commentaire*/
+/*
+media
+.commentaire2{
+    display: block;
+    margin-top: 55px;
+    gap: 25px;
+    margin-left: 10px;
+}*/
+
+.commentaire2{
+    display: flex;
+    margin-top: 55px;
+    gap: 25px;
+ 
+    justify-content: center;
+}
+
+.personne1{
+    display:block;
+    background-color: #ec756d;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    width: 400px;
+}
+
+h2{
+    text-align: center;
+    margin: 10px;
+}
+
+.imagecommentaire{
+    width: 60px;
+    height: 60px;
+    background-color: #555;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.pcommentaire{
+    text-align: center;
+    padding: 20px;
+    margin-bottom:10px ;
+}
+/*commentaire*/
+.ensemble{
+   
+    width: 100%;
+    height: 400px;
+   /* background: radial-gradient(#e0ece0,#ec756d);*/
+
+   background-color: hsl(69, 72%, 50%);
+
+   display: flex;
+ 
+   
+
+}
+/*
+.ensemble{
+    width: 100%;
+    height: 400px;
+   /* background: radial-gradient(#e0ece0,#ec756d);
+
+   background-color: hsl(69, 72%, 50%);
+
+   flex-direction: column;
+   gap: 10px;
+
+}*/
+.gauche{
+    width: 400px;
+    height: 100%;
+    background-color: #2cc75a;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+.droit{
+
+  
+    width: 400px;
+    height: 100%;
+    background-color: #ffffff;
+    margin-right:10%;
+    border-radius: 10px;
+}
+
+/* fin*/
+
+/*publication*/
+.publication10{
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    margin-top: 60px;
+    margin-left: 300px;
+    border-radius: 10px;
+
+
+}
+
+.publicationetiquette{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+    background-color: black;
+    color: red;
+    margin-left: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px white;
+    width: 220px;
+    height: 35px;
+
+}
+
+.publication11{
+    width: 200px;
+    height: 150px;
+    background-color: #09792b;
+    margin-left: 40px;
+    margin-top:20px;
+
+}
+
+.publication12{
+    width: 200px;
+    height: 150px;
+    background-color: #095f79;
+    margin-top: -30px;
+    margin-left: 150px;
+}
+
+.publication{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: #f57b0a;
+}
+
+.publicationimage{
+    width: 600px;
+    height: 330px;
+    background-color: #09792b;
+    margin: 25px 200px;
+}
+.publicationp{
+    text-align: center;
+    margin: 20px;
+}
+.publicationdetail{
+    text-align: center;
+    margin: 20px;
+}
+
+.publicationfond{
+    background-color: #ff52b3;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+}
+.h1publication{
+    text-align: center;
+    margin: 30px 20px;
+}
+
+.publicationh2{
+    margin-top: 20px;
+}
+/*fin*/
+/*addpublication*/
+.addpublicationfond{
+    width: 100%;
+    background-color: #0b1805;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.addpublicationcorps{
+    width: 650px;
+    height: 620px;
+    background-color: #ff52b3;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+    margin: 100px;
+
+   
+
+}
+
+.addpublicationentet{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+.addpublicationform input{
+    margin-left: 150px;
+    width: 360px
+    
+
+}
+
+
+
+.addpublicationform label{
+    display: flex;
+    width: 100%;
+    background-color: #ff52b3;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 15px;
+  
+}
+
+.addpublicationform textarea{
+    max-height: 190px;
+    min-height: 190px;
+    max-width: 500px;
+    min-width: 500px;
+    
+    margin-left: 80px;
+    
+   
+ 
+}
+.addpublicationform{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.addsubmit{
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.addsubmit:hover{
+  background-color: #555;
+  color: white;
+}
+
+#addimage{
+    height: 30px;
+}
+/*fin*/
